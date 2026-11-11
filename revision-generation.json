@@ -1,0 +1,15 @@
+{
+  "twilight_target": 70,
+  "rain_night_target": 42,
+  "shadow_knee": 0.25,
+  "twilight_max_gain": 3.0,
+  "rain_night_max_gain": 2.0,
+  "max_exposure": 0.9,
+  "cold_gains": [
+    0.9,
+    1.0,
+    1.1
+  ],
+  "rain_pix2pix_weight": 0.05,
+  "jpeg_quality": 92
+}

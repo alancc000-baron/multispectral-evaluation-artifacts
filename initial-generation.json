@@ -1,0 +1,37 @@
+{
+  "seed": 20261014,
+  "jpeg_quality": 92,
+  "jpeg_subsampling": 2,
+  "twilight_mean_target": 55,
+  "twilight_exposure": 0.84,
+  "twilight_gamma_min": 0.55,
+  "twilight_gamma_max": 1.8,
+  "twilight_gains": [
+    0.9,
+    1,
+    1.1
+  ],
+  "rainy_night_mean_target": 32,
+  "rainy_night_exposure": 0.82,
+  "rainy_night_gamma_min": 0.75,
+  "rainy_night_gamma_max": 2.6,
+  "rainy_night_gains": [
+    0.93,
+    1,
+    1.06
+  ],
+  "pix2pix_weight_bright": 0.2,
+  "pix2pix_weight_dark": 0.1,
+  "rain_opacity": 0.12,
+  "rain_density_per_megapixel": 850,
+  "rain_length_at640": 15,
+  "rain_slant_at640": -4,
+  "illumination_names": [
+    "Night",
+    "Day",
+    "Twilight"
+  ],
+  "ncc_screen_min": 0.9,
+  "person_p90_screen_min": 18,
+  "person_dark_fraction_screen_max": 0.95
+}

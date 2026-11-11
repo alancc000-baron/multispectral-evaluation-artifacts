@@ -1,0 +1,490 @@
+[
+  {
+    "section": "fixed20",
+    "group": "full",
+    "state": "0：冻结原底座",
+    "adapter_updates": 0,
+    "current_stage_trainable_parameters": null,
+    "metrics": {
+      "precision": 0.8155938858505118,
+      "recall": 0.8074787115883006,
+      "f1": 0.8115160112555522,
+      "map50": 0.8483036637151774
+    }
+  },
+  {
+    "section": "fixed20",
+    "group": "full",
+    "state": "仅A20",
+    "adapter_updates": 87100,
+    "current_stage_trainable_parameters": 60032,
+    "metrics": {
+      "precision": 0.8212410392219534,
+      "recall": 0.8323768974453906,
+      "f1": 0.8267714725688939,
+      "map50": 0.876691450423625
+    }
+  },
+  {
+    "section": "fixed20",
+    "group": "full",
+    "state": "条件B20",
+    "adapter_updates": 87100,
+    "current_stage_trainable_parameters": 349343,
+    "metrics": {
+      "precision": 0.8256388535931103,
+      "recall": 0.8119215105516475,
+      "f1": 0.8187227290757636,
+      "map50": 0.8563467217039036
+    }
+  },
+  {
+    "section": "fixed20",
+    "group": "full",
+    "state": "B20→动态A20",
+    "adapter_updates": 174200,
+    "current_stage_trainable_parameters": 60032,
+    "metrics": {
+      "precision": 0.8254917172454708,
+      "recall": 0.8371436504998149,
+      "f1": 0.8312768548516808,
+      "map50": 0.8815569316722008
+    }
+  },
+  {
+    "section": "fixed20",
+    "group": "full",
+    "state": "B20→静态A20",
+    "adapter_updates": 174200,
+    "current_stage_trainable_parameters": 896,
+    "metrics": {
+      "precision": 0.80806763502271,
+      "recall": 0.8315901517956312,
+      "f1": 0.8196601664956095,
+      "map50": 0.8678131692835135
+    }
+  },
+  {
+    "section": "fixed20",
+    "group": "full",
+    "state": "固定分支B20",
+    "adapter_updates": 87100,
+    "current_stage_trainable_parameters": 349313,
+    "metrics": {
+      "precision": 0.825933257918552,
+      "recall": 0.8109496482784154,
+      "f1": 0.8183728750233514,
+      "map50": 0.856066957618808
+    }
+  },
+  {
+    "section": "validation_selected",
+    "group": "full",
+    "state": "A_only",
+    "metrics": {
+      "precision": 0.822300448020481,
+      "recall": 0.8324231766012588,
+      "f1": 0.8273308495469388,
+      "map50": 0.8772091068753368
+    }
+  },
+  {
+    "section": "validation_selected",
+    "group": "full",
+    "state": "A_static",
+    "metrics": {
+      "precision": 0.8071640183140317,
+      "recall": 0.8321917808219178,
+      "f1": 0.8194868522991386,
+      "map50": 0.8680970222311705
+    }
+  },
+  {
+    "section": "validation_selected",
+    "group": "full",
+    "state": "B_uniform",
+    "metrics": {
+      "precision": 0.825933257918552,
+      "recall": 0.8109496482784154,
+      "f1": 0.8183728750233514,
+      "map50": 0.856066957618808
+    }
+  },
+  {
+    "section": "validation_selected",
+    "group": "full",
+    "state": "既有完整M71",
+    "metrics": {
+      "precision": 0.823593664664118,
+      "recall": 0.8374676045908923,
+      "f1": 0.8304726938962826,
+      "map50": 0.8812460444195912
+    }
+  },
+  {
+    "section": "fixed20",
+    "group": "original",
+    "state": "0：冻结原底座",
+    "adapter_updates": 0,
+    "current_stage_trainable_parameters": null,
+    "metrics": {
+      "precision": 0.7860470040228669,
+      "recall": 0.8821432814541998,
+      "f1": 0.8313273246375189,
+      "map50": 0.9052573266276585
+    }
+  },
+  {
+    "section": "fixed20",
+    "group": "original",
+    "state": "仅A20",
+    "adapter_updates": 87100,
+    "current_stage_trainable_parameters": 60032,
+    "metrics": {
+      "precision": 0.8006301607996523,
+      "recall": 0.8754900796008079,
+      "f1": 0.8363884002043017,
+      "map50": 0.9053317018956846
+    }
+  },
+  {
+    "section": "fixed20",
+    "group": "original",
+    "state": "条件B20",
+    "adapter_updates": 87100,
+    "current_stage_trainable_parameters": 349343,
+    "metrics": {
+      "precision": 0.7940672520882416,
+      "recall": 0.8809552096946656,
+      "f1": 0.8352576738946775,
+      "map50": 0.9049633702773859
+    }
+  },
+  {
+    "section": "fixed20",
+    "group": "original",
+    "state": "B20→动态A20",
+    "adapter_updates": 174200,
+    "current_stage_trainable_parameters": 60032,
+    "metrics": {
+      "precision": 0.8078569077142543,
+      "recall": 0.8746584293691338,
+      "f1": 0.8399315459212777,
+      "map50": 0.905517550223937
+    }
+  },
+  {
+    "section": "fixed20",
+    "group": "original",
+    "state": "B20→静态A20",
+    "adapter_updates": 174200,
+    "current_stage_trainable_parameters": 896,
+    "metrics": {
+      "precision": 0.7761318589609848,
+      "recall": 0.8839253890935013,
+      "f1": 0.8265289118480253,
+      "map50": 0.9028985089045821
+    }
+  },
+  {
+    "section": "fixed20",
+    "group": "original",
+    "state": "固定分支B20",
+    "adapter_updates": 87100,
+    "current_stage_trainable_parameters": 349313,
+    "metrics": {
+      "precision": 0.7917602996254681,
+      "recall": 0.8790542948794107,
+      "f1": 0.8331269001238599,
+      "map50": 0.9048053541030108
+    }
+  },
+  {
+    "section": "validation_selected",
+    "group": "original",
+    "state": "A_only",
+    "metrics": {
+      "precision": 0.8020459244749156,
+      "recall": 0.8756088867767613,
+      "f1": 0.8372145859366126,
+      "map50": 0.906146574124701
+    }
+  },
+  {
+    "section": "validation_selected",
+    "group": "original",
+    "state": "A_static",
+    "metrics": {
+      "precision": 0.7748385752968132,
+      "recall": 0.8839253890935013,
+      "f1": 0.8257949941728175,
+      "map50": 0.9027702841631211
+    }
+  },
+  {
+    "section": "validation_selected",
+    "group": "original",
+    "state": "B_uniform",
+    "metrics": {
+      "precision": 0.7917602996254681,
+      "recall": 0.8790542948794107,
+      "f1": 0.8331269001238599,
+      "map50": 0.9048053541030108
+    }
+  },
+  {
+    "section": "validation_selected",
+    "group": "original",
+    "state": "既有完整M71",
+    "metrics": {
+      "precision": 0.8063349408154318,
+      "recall": 0.8740643934893667,
+      "f1": 0.8388347300609998,
+      "map50": 0.9054744145245738
+    }
+  },
+  {
+    "section": "fixed20",
+    "group": "twilight",
+    "state": "0：冻结原底座",
+    "adapter_updates": 0,
+    "current_stage_trainable_parameters": null,
+    "metrics": {
+      "precision": 0.8382377116554331,
+      "recall": 0.7375958339360625,
+      "f1": 0.7847029855340104,
+      "map50": 0.8079683159637773
+    }
+  },
+  {
+    "section": "fixed20",
+    "group": "twilight",
+    "state": "仅A20",
+    "adapter_updates": 87100,
+    "current_stage_trainable_parameters": 60032,
+    "metrics": {
+      "precision": 0.829713943387749,
+      "recall": 0.8013886879791697,
+      "f1": 0.8153053715967624,
+      "map50": 0.858753798183069
+    }
+  },
+  {
+    "section": "fixed20",
+    "group": "twilight",
+    "state": "条件B20",
+    "adapter_updates": 87100,
+    "current_stage_trainable_parameters": 349343,
+    "metrics": {
+      "precision": 0.8528010514210613,
+      "recall": 0.7509040937364386,
+      "f1": 0.7986153846153846,
+      "map50": 0.8259382987921626
+    }
+  },
+  {
+    "section": "fixed20",
+    "group": "twilight",
+    "state": "B20→动态A20",
+    "adapter_updates": 174200,
+    "current_stage_trainable_parameters": 60032,
+    "metrics": {
+      "precision": 0.8308376575240919,
+      "recall": 0.8106466078403008,
+      "f1": 0.8206179528481475,
+      "map50": 0.8658724466255439
+    }
+  },
+  {
+    "section": "fixed20",
+    "group": "twilight",
+    "state": "B20→静态A20",
+    "adapter_updates": 174200,
+    "current_stage_trainable_parameters": 896,
+    "metrics": {
+      "precision": 0.8304466727438469,
+      "recall": 0.7906842181397368,
+      "f1": 0.8100778065950351,
+      "map50": 0.848867752513271
+    }
+  },
+  {
+    "section": "fixed20",
+    "group": "twilight",
+    "state": "固定分支B20",
+    "adapter_updates": 87100,
+    "current_stage_trainable_parameters": 349313,
+    "metrics": {
+      "precision": 0.8548333883206862,
+      "recall": 0.749602198755967,
+      "f1": 0.798766859344894,
+      "map50": 0.8251664931993752
+    }
+  },
+  {
+    "section": "validation_selected",
+    "group": "twilight",
+    "state": "A_only",
+    "metrics": {
+      "precision": 0.830335731414868,
+      "recall": 0.8013886879791697,
+      "f1": 0.8156054471843945,
+      "map50": 0.8593298319983287
+    }
+  },
+  {
+    "section": "validation_selected",
+    "group": "twilight",
+    "state": "A_static",
+    "metrics": {
+      "precision": 0.8299226921327876,
+      "recall": 0.7919861131202083,
+      "f1": 0.8105107327905254,
+      "map50": 0.8493632737286493
+    }
+  },
+  {
+    "section": "validation_selected",
+    "group": "twilight",
+    "state": "B_uniform",
+    "metrics": {
+      "precision": 0.8548333883206862,
+      "recall": 0.749602198755967,
+      "f1": 0.798766859344894,
+      "map50": 0.8251664931993752
+    }
+  },
+  {
+    "section": "validation_selected",
+    "group": "twilight",
+    "state": "既有完整M71",
+    "metrics": {
+      "precision": 0.8296613928729853,
+      "recall": 0.8116591928251121,
+      "f1": 0.8205615677098567,
+      "map50": 0.8659997547902969
+    }
+  },
+  {
+    "section": "fixed20",
+    "group": "rain_night",
+    "state": "0：冻结原底座",
+    "adapter_updates": 0,
+    "current_stage_trainable_parameters": null,
+    "metrics": {
+      "precision": 0.839699863574352,
+      "recall": 0.7843262185409366,
+      "f1": 0.8110690166364685,
+      "map50": 0.8248400815281061
+    }
+  },
+  {
+    "section": "fixed20",
+    "group": "rain_night",
+    "state": "仅A20",
+    "adapter_updates": 87100,
+    "current_stage_trainable_parameters": 60032,
+    "metrics": {
+      "precision": 0.8433554817275748,
+      "recall": 0.8086970372730169,
+      "f1": 0.8256627093836396,
+      "map50": 0.862596249593777
+    }
+  },
+  {
+    "section": "fixed20",
+    "group": "rain_night",
+    "state": "条件B20",
+    "adapter_updates": 87100,
+    "current_stage_trainable_parameters": 349343,
+    "metrics": {
+      "precision": 0.8478708791208791,
+      "recall": 0.7865562280981204,
+      "f1": 0.8160634605850273,
+      "map50": 0.8351276821772031
+    }
+  },
+  {
+    "section": "fixed20",
+    "group": "rain_night",
+    "state": "B20→动态A20",
+    "adapter_updates": 174200,
+    "current_stage_trainable_parameters": 60032,
+    "metrics": {
+      "precision": 0.8460776218001651,
+      "recall": 0.8160242115323352,
+      "f1": 0.8307792102489256,
+      "map50": 0.8704831570192432
+    }
+  },
+  {
+    "section": "fixed20",
+    "group": "rain_night",
+    "state": "B20→静态A20",
+    "adapter_updates": 174200,
+    "current_stage_trainable_parameters": 896,
+    "metrics": {
+      "precision": 0.8342395781842149,
+      "recall": 0.8064670277158331,
+      "f1": 0.8201182473475338,
+      "map50": 0.8501621317773749
+    }
+  },
+  {
+    "section": "fixed20",
+    "group": "rain_night",
+    "state": "固定分支B20",
+    "adapter_updates": 87100,
+    "current_stage_trainable_parameters": 349313,
+    "metrics": {
+      "precision": 0.8507488380099845,
+      "recall": 0.7871933736858873,
+      "f1": 0.8177380656904112,
+      "map50": 0.8354569290918326
+    }
+  },
+  {
+    "section": "validation_selected",
+    "group": "rain_night",
+    "state": "A_only",
+    "metrics": {
+      "precision": 0.8443372692499584,
+      "recall": 0.8086970372730169,
+      "f1": 0.8261329428036774,
+      "map50": 0.862773560615242
+    }
+  },
+  {
+    "section": "validation_selected",
+    "group": "rain_night",
+    "state": "A_static",
+    "metrics": {
+      "precision": 0.8335252508636289,
+      "recall": 0.8071041733035998,
+      "f1": 0.8201019664967225,
+      "map50": 0.8505066814385975
+    }
+  },
+  {
+    "section": "validation_selected",
+    "group": "rain_night",
+    "state": "B_uniform",
+    "metrics": {
+      "precision": 0.8507488380099845,
+      "recall": 0.7871933736858873,
+      "f1": 0.8177380656904112,
+      "map50": 0.8354569290918326
+    }
+  },
+  {
+    "section": "validation_selected",
+    "group": "rain_night",
+    "state": "既有完整M71",
+    "metrics": {
+      "precision": 0.8427280197206245,
+      "recall": 0.8168206435170436,
+      "f1": 0.8295721103292082,
+      "map50": 0.8695510388281378
+    }
+  }
+]

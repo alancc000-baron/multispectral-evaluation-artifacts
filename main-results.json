@@ -1,0 +1,1442 @@
+[
+  {
+    "dataset": "KAIST",
+    "group": "full",
+    "images": 5881,
+    "model": "UMPDP",
+    "family": "umpdp",
+    "modalities": "RGB+IR",
+    "native_input": "640_square",
+    "metrics": {
+      "precision": 0.7184754521963824,
+      "recall": 0.6255343082114736,
+      "f1": 0.6687913409500902,
+      "map50": 0.6871333634766499
+    }
+  },
+  {
+    "dataset": "KAIST",
+    "group": "full",
+    "images": 5881,
+    "model": "M71",
+    "family": "m71",
+    "modalities": "RGB+IR",
+    "native_input": "640_square",
+    "metrics": {
+      "precision": 0.6954722780470505,
+      "recall": 0.6617547806524184,
+      "f1": 0.6781947086287395,
+      "map50": 0.7001102684990144
+    }
+  },
+  {
+    "dataset": "KAIST",
+    "group": "original",
+    "images": 2252,
+    "model": "UMPDP",
+    "family": "umpdp",
+    "modalities": "RGB+IR",
+    "native_input": "640_square",
+    "metrics": {
+      "precision": 0.727452271231073,
+      "recall": 0.6519174041297935,
+      "f1": 0.6876166770379589,
+      "map50": 0.71304046661649
+    }
+  },
+  {
+    "dataset": "KAIST",
+    "group": "original",
+    "images": 2252,
+    "model": "M71",
+    "family": "m71",
+    "modalities": "RGB+IR",
+    "native_input": "640_square",
+    "metrics": {
+      "precision": 0.7144200626959247,
+      "recall": 0.6722713864306785,
+      "f1": 0.6927051671732523,
+      "map50": 0.7165111272584803
+    }
+  },
+  {
+    "dataset": "KAIST",
+    "group": "twilight",
+    "images": 1412,
+    "model": "UMPDP",
+    "family": "umpdp",
+    "modalities": "RGB+IR",
+    "native_input": "640_square",
+    "metrics": {
+      "precision": 0.6932084309133489,
+      "recall": 0.6574855619724567,
+      "f1": 0.674874601003192,
+      "map50": 0.7006983754190113
+    }
+  },
+  {
+    "dataset": "KAIST",
+    "group": "twilight",
+    "images": 1412,
+    "model": "M71",
+    "family": "m71",
+    "modalities": "RGB+IR",
+    "native_input": "640_square",
+    "metrics": {
+      "precision": 0.6764570904084443,
+      "recall": 0.6548200799644602,
+      "f1": 0.6654627539503386,
+      "map50": 0.6991161462688198
+    }
+  },
+  {
+    "dataset": "KAIST",
+    "group": "rain_night",
+    "images": 2217,
+    "model": "UMPDP",
+    "family": "umpdp",
+    "modalities": "RGB+IR",
+    "native_input": "640_square",
+    "metrics": {
+      "precision": 0.7288663809894819,
+      "recall": 0.5758694983071715,
+      "f1": 0.643397524071527,
+      "map50": 0.6535660881681506
+    }
+  },
+  {
+    "dataset": "KAIST",
+    "group": "rain_night",
+    "images": 2217,
+    "model": "M71",
+    "family": "m71",
+    "modalities": "RGB+IR",
+    "native_input": "640_square",
+    "metrics": {
+      "precision": 0.6893203883495146,
+      "recall": 0.6555863342566943,
+      "f1": 0.6720302886890676,
+      "map50": 0.686192548410629
+    }
+  },
+  {
+    "dataset": "LLVIP",
+    "group": "full",
+    "images": 8681,
+    "model": "UMPDP",
+    "family": "umpdp",
+    "modalities": "RGB+IR",
+    "native_input": "640_square",
+    "metrics": {
+      "precision": 0.68816895632561,
+      "recall": 0.8556059756284097,
+      "f1": 0.762807400336379,
+      "map50": 0.8546248630251274
+    }
+  },
+  {
+    "dataset": "LLVIP",
+    "group": "full",
+    "images": 8681,
+    "model": "M71",
+    "family": "m71",
+    "modalities": "RGB+IR",
+    "native_input": "640_square",
+    "metrics": {
+      "precision": 0.8462792213839992,
+      "recall": 0.9265793096415643,
+      "f1": 0.884610704115657,
+      "map50": 0.9512545500828937
+    }
+  },
+  {
+    "dataset": "LLVIP",
+    "group": "original",
+    "images": 3463,
+    "model": "UMPDP",
+    "family": "umpdp",
+    "modalities": "RGB+IR",
+    "native_input": "640_square",
+    "metrics": {
+      "precision": 0.6772277227722773,
+      "recall": 0.862438532341445,
+      "f1": 0.7586933614330875,
+      "map50": 0.8584451589966445
+    }
+  },
+  {
+    "dataset": "LLVIP",
+    "group": "original",
+    "images": 3463,
+    "model": "M71",
+    "family": "m71",
+    "modalities": "RGB+IR",
+    "native_input": "640_square",
+    "metrics": {
+      "precision": 0.8273527420446851,
+      "recall": 0.9244735846677594,
+      "f1": 0.8732209849341988,
+      "map50": 0.9474529353996105
+    }
+  },
+  {
+    "dataset": "LLVIP",
+    "group": "twilight",
+    "images": 2145,
+    "model": "UMPDP",
+    "family": "umpdp",
+    "modalities": "RGB+IR",
+    "native_input": "640_square",
+    "metrics": {
+      "precision": 0.7063808574277168,
+      "recall": 0.8500299940011997,
+      "f1": 0.7715763680914783,
+      "map50": 0.8549189825706479
+    }
+  },
+  {
+    "dataset": "LLVIP",
+    "group": "twilight",
+    "images": 2145,
+    "model": "M71",
+    "family": "m71",
+    "modalities": "RGB+IR",
+    "native_input": "640_square",
+    "metrics": {
+      "precision": 0.8606891441274546,
+      "recall": 0.9290141971605679,
+      "f1": 0.8935474564862005,
+      "map50": 0.9573343747494776
+    }
+  },
+  {
+    "dataset": "LLVIP",
+    "group": "rain_night",
+    "images": 3073,
+    "model": "UMPDP",
+    "family": "umpdp",
+    "modalities": "RGB+IR",
+    "native_input": "640_square",
+    "metrics": {
+      "precision": 0.688278698439579,
+      "recall": 0.851668911839545,
+      "f1": 0.7613058603157614,
+      "map50": 0.8504060241353745
+    }
+  },
+  {
+    "dataset": "LLVIP",
+    "group": "rain_night",
+    "images": 3073,
+    "model": "M71",
+    "family": "m71",
+    "modalities": "RGB+IR",
+    "native_input": "640_square",
+    "metrics": {
+      "precision": 0.8587468810645966,
+      "recall": 0.9272563987427032,
+      "f1": 0.8916876574307304,
+      "map50": 0.9518242443938243
+    }
+  },
+  {
+    "dataset": "SWVID",
+    "group": "full",
+    "images": 9754,
+    "model": "UMPDP",
+    "family": "umpdp",
+    "modalities": "RGB+IR",
+    "native_input": "640_square",
+    "metrics": {
+      "precision": 0.8155938858505118,
+      "recall": 0.8074787115883006,
+      "f1": 0.8115160112555522,
+      "map50": 0.8483036637151774
+    }
+  },
+  {
+    "dataset": "SWVID",
+    "group": "full",
+    "images": 9754,
+    "model": "M71",
+    "family": "m71",
+    "modalities": "RGB+IR",
+    "native_input": "640_square",
+    "metrics": {
+      "precision": 0.823593664664118,
+      "recall": 0.8374676045908923,
+      "f1": 0.8304726938962826,
+      "map50": 0.8812460444195912
+    }
+  },
+  {
+    "dataset": "SWVID",
+    "group": "original",
+    "images": 3600,
+    "model": "UMPDP",
+    "family": "umpdp",
+    "modalities": "RGB+IR",
+    "native_input": "640_square",
+    "metrics": {
+      "precision": 0.7860470040228669,
+      "recall": 0.8821432814541998,
+      "f1": 0.8313273246375189,
+      "map50": 0.9052573266276585
+    }
+  },
+  {
+    "dataset": "SWVID",
+    "group": "original",
+    "images": 3600,
+    "model": "M71",
+    "family": "m71",
+    "modalities": "RGB+IR",
+    "native_input": "640_square",
+    "metrics": {
+      "precision": 0.8063349408154318,
+      "recall": 0.8740643934893667,
+      "f1": 0.8388347300609998,
+      "map50": 0.9054744145245738
+    }
+  },
+  {
+    "dataset": "SWVID",
+    "group": "twilight",
+    "images": 3031,
+    "model": "UMPDP",
+    "family": "umpdp",
+    "modalities": "RGB+IR",
+    "native_input": "640_square",
+    "metrics": {
+      "precision": 0.8382377116554331,
+      "recall": 0.7375958339360625,
+      "f1": 0.7847029855340104,
+      "map50": 0.8079683159637773
+    }
+  },
+  {
+    "dataset": "SWVID",
+    "group": "twilight",
+    "images": 3031,
+    "model": "M71",
+    "family": "m71",
+    "modalities": "RGB+IR",
+    "native_input": "640_square",
+    "metrics": {
+      "precision": 0.8296613928729853,
+      "recall": 0.8116591928251121,
+      "f1": 0.8205615677098567,
+      "map50": 0.8659997547902969
+    }
+  },
+  {
+    "dataset": "SWVID",
+    "group": "rain_night",
+    "images": 3123,
+    "model": "UMPDP",
+    "family": "umpdp",
+    "modalities": "RGB+IR",
+    "native_input": "640_square",
+    "metrics": {
+      "precision": 0.839699863574352,
+      "recall": 0.7843262185409366,
+      "f1": 0.8110690166364685,
+      "map50": 0.8248400815281061
+    }
+  },
+  {
+    "dataset": "SWVID",
+    "group": "rain_night",
+    "images": 3123,
+    "model": "M71",
+    "family": "m71",
+    "modalities": "RGB+IR",
+    "native_input": "640_square",
+    "metrics": {
+      "precision": 0.8427280197206245,
+      "recall": 0.8168206435170436,
+      "f1": 0.8295721103292082,
+      "map50": 0.8695510388281378
+    }
+  },
+  {
+    "dataset": "KAIST",
+    "group": "full",
+    "images": 5881,
+    "model": "YOLOv5s",
+    "family": "v5",
+    "modalities": "RGB",
+    "native_input": "640_square",
+    "metrics": {
+      "precision": 0.6140813775864463,
+      "recall": 0.4974128233970754,
+      "f1": 0.549624013423653,
+      "map50": 0.5062988018077285
+    }
+  },
+  {
+    "dataset": "KAIST",
+    "group": "original",
+    "images": 2252,
+    "model": "YOLOv5s",
+    "family": "v5",
+    "modalities": "RGB",
+    "native_input": "640_square",
+    "metrics": {
+      "precision": 0.6701612903225806,
+      "recall": 0.4902654867256637,
+      "f1": 0.5662691652470188,
+      "map50": 0.5224289487652046
+    }
+  },
+  {
+    "dataset": "KAIST",
+    "group": "twilight",
+    "images": 1412,
+    "model": "YOLOv5s",
+    "family": "v5",
+    "modalities": "RGB",
+    "native_input": "640_square",
+    "metrics": {
+      "precision": 0.6263888888888889,
+      "recall": 0.6010661928031986,
+      "f1": 0.6134663341645885,
+      "map50": 0.6059714695534717
+    }
+  },
+  {
+    "dataset": "KAIST",
+    "group": "rain_night",
+    "images": 2217,
+    "model": "YOLOv5s",
+    "family": "v5",
+    "modalities": "RGB",
+    "native_input": "640_square",
+    "metrics": {
+      "precision": 0.5493947676688793,
+      "recall": 0.433056325023084,
+      "f1": 0.4843373493975903,
+      "map50": 0.4290067999455912
+    }
+  },
+  {
+    "dataset": "LLVIP",
+    "group": "full",
+    "images": 8681,
+    "model": "YOLOv5s",
+    "family": "v5",
+    "modalities": "RGB",
+    "native_input": "640_square",
+    "metrics": {
+      "precision": 0.7055198862412203,
+      "recall": 0.8348034466935196,
+      "f1": 0.7647361046240074,
+      "map50": 0.8491838874800604
+    }
+  },
+  {
+    "dataset": "LLVIP",
+    "group": "original",
+    "images": 3463,
+    "model": "YOLOv5s",
+    "family": "v5",
+    "modalities": "RGB",
+    "native_input": "640_square",
+    "metrics": {
+      "precision": 0.6271515579486274,
+      "recall": 0.8958517210944396,
+      "f1": 0.7377985462097612,
+      "map50": 0.8896273096884922
+    }
+  },
+  {
+    "dataset": "LLVIP",
+    "group": "twilight",
+    "images": 2145,
+    "model": "YOLOv5s",
+    "family": "v5",
+    "modalities": "RGB",
+    "native_input": "640_square",
+    "metrics": {
+      "precision": 0.8046709129511678,
+      "recall": 0.8336332733453309,
+      "f1": 0.8188960911412296,
+      "map50": 0.8674579666287635
+    }
+  },
+  {
+    "dataset": "LLVIP",
+    "group": "rain_night",
+    "images": 3073,
+    "model": "YOLOv5s",
+    "family": "v5",
+    "modalities": "RGB",
+    "native_input": "640_square",
+    "metrics": {
+      "precision": 0.7613856950873525,
+      "recall": 0.7632091004340668,
+      "f1": 0.7622963073703094,
+      "map50": 0.8012124064067109
+    }
+  },
+  {
+    "dataset": "SWVID",
+    "group": "full",
+    "images": 9754,
+    "model": "YOLOv5s",
+    "family": "v5",
+    "modalities": "RGB",
+    "native_input": "640_square",
+    "metrics": {
+      "precision": 0.7950588625435251,
+      "recall": 0.6657256571640133,
+      "f1": 0.7246668849651142,
+      "map50": 0.7275353669751241
+    }
+  },
+  {
+    "dataset": "SWVID",
+    "group": "original",
+    "images": 3600,
+    "model": "YOLOv5s",
+    "family": "v5",
+    "modalities": "RGB",
+    "native_input": "640_square",
+    "metrics": {
+      "precision": 0.752534078993359,
+      "recall": 0.7673755494831888,
+      "f1": 0.7598823529411765,
+      "map50": 0.8057234238395896
+    }
+  },
+  {
+    "dataset": "SWVID",
+    "group": "twilight",
+    "images": 3031,
+    "model": "YOLOv5s",
+    "family": "v5",
+    "modalities": "RGB",
+    "native_input": "640_square",
+    "metrics": {
+      "precision": 0.848922326148841,
+      "recall": 0.6039346159409807,
+      "f1": 0.7057729693178937,
+      "map50": 0.6998096032305083
+    }
+  },
+  {
+    "dataset": "SWVID",
+    "group": "rain_night",
+    "images": 3123,
+    "model": "YOLOv5s",
+    "family": "v5",
+    "modalities": "RGB",
+    "native_input": "640_square",
+    "metrics": {
+      "precision": 0.8168554006968641,
+      "recall": 0.5974832749283211,
+      "f1": 0.6901563937442502,
+      "map50": 0.6718117988543979
+    }
+  },
+  {
+    "dataset": "KAIST",
+    "group": "full",
+    "images": 5881,
+    "model": "YOLOv8s",
+    "family": "v8",
+    "modalities": "RGB",
+    "native_input": "640_square",
+    "metrics": {
+      "precision": 0.7449977767896843,
+      "recall": 0.37694038245219347,
+      "f1": 0.5005975500448162,
+      "map50": 0.45020835082196164
+    }
+  },
+  {
+    "dataset": "KAIST",
+    "group": "original",
+    "images": 2252,
+    "model": "YOLOv8s",
+    "family": "v8",
+    "modalities": "RGB",
+    "native_input": "640_square",
+    "metrics": {
+      "precision": 0.7425414364640884,
+      "recall": 0.39646017699115044,
+      "f1": 0.5169230769230769,
+      "map50": 0.4613453360800667
+    }
+  },
+  {
+    "dataset": "KAIST",
+    "group": "twilight",
+    "images": 1412,
+    "model": "YOLOv8s",
+    "family": "v8",
+    "modalities": "RGB",
+    "native_input": "640_square",
+    "metrics": {
+      "precision": 0.7686395080707148,
+      "recall": 0.44424700133274103,
+      "f1": 0.5630630630630631,
+      "map50": 0.5366225553678843
+    }
+  },
+  {
+    "dataset": "KAIST",
+    "group": "rain_night",
+    "images": 2217,
+    "model": "YOLOv8s",
+    "family": "v8",
+    "modalities": "RGB",
+    "native_input": "640_square",
+    "metrics": {
+      "precision": 0.726027397260274,
+      "recall": 0.30994152046783624,
+      "f1": 0.4344262295081967,
+      "map50": 0.3810543483454653
+    }
+  },
+  {
+    "dataset": "LLVIP",
+    "group": "full",
+    "images": 8681,
+    "model": "YOLOv8s",
+    "family": "v8",
+    "modalities": "RGB",
+    "native_input": "640_square",
+    "metrics": {
+      "precision": 0.7832448047712236,
+      "recall": 0.8570845867536838,
+      "f1": 0.8185027388922703,
+      "map50": 0.8727215143431833
+    }
+  },
+  {
+    "dataset": "LLVIP",
+    "group": "original",
+    "images": 3463,
+    "model": "YOLOv8s",
+    "family": "v8",
+    "modalities": "RGB",
+    "native_input": "640_square",
+    "metrics": {
+      "precision": 0.7595488881795935,
+      "recall": 0.9001386962552012,
+      "f1": 0.8238892094633583,
+      "map50": 0.901121895513356
+    }
+  },
+  {
+    "dataset": "LLVIP",
+    "group": "twilight",
+    "images": 2145,
+    "model": "YOLOv8s",
+    "family": "v8",
+    "modalities": "RGB",
+    "native_input": "640_square",
+    "metrics": {
+      "precision": 0.8459150009703086,
+      "recall": 0.871625674865027,
+      "f1": 0.8585779003348434,
+      "map50": 0.8999705671086045
+    }
+  },
+  {
+    "dataset": "LLVIP",
+    "group": "rain_night",
+    "images": 3073,
+    "model": "YOLOv8s",
+    "family": "v8",
+    "modalities": "RGB",
+    "native_input": "640_square",
+    "metrics": {
+      "precision": 0.7687409551374819,
+      "recall": 0.7950905553060919,
+      "f1": 0.7816937679346626,
+      "map50": 0.8197299215338132
+    }
+  },
+  {
+    "dataset": "SWVID",
+    "group": "full",
+    "images": 9754,
+    "model": "YOLOv8s",
+    "family": "v8",
+    "modalities": "RGB",
+    "native_input": "640_square",
+    "metrics": {
+      "precision": 0.8923657615974674,
+      "recall": 0.6783598667160311,
+      "f1": 0.7707840353368038,
+      "map50": 0.7674611140213503
+    }
+  },
+  {
+    "dataset": "SWVID",
+    "group": "original",
+    "images": 3600,
+    "model": "YOLOv8s",
+    "family": "v8",
+    "modalities": "RGB",
+    "native_input": "640_square",
+    "metrics": {
+      "precision": 0.867465173805494,
+      "recall": 0.7916122133776881,
+      "f1": 0.8278046962355572,
+      "map50": 0.8551916380968723
+    }
+  },
+  {
+    "dataset": "SWVID",
+    "group": "twilight",
+    "images": 3031,
+    "model": "YOLOv8s",
+    "family": "v8",
+    "modalities": "RGB",
+    "native_input": "640_square",
+    "metrics": {
+      "precision": 0.9265154819014392,
+      "recall": 0.6146390857804137,
+      "f1": 0.7390207844160361,
+      "map50": 0.7358367928638415
+    }
+  },
+  {
+    "dataset": "SWVID",
+    "group": "rain_night",
+    "images": 3123,
+    "model": "YOLOv8s",
+    "family": "v8",
+    "modalities": "RGB",
+    "native_input": "640_square",
+    "metrics": {
+      "precision": 0.9006972830007214,
+      "recall": 0.5966868429436126,
+      "f1": 0.717830794289547,
+      "map50": 0.7023544151442862
+    }
+  },
+  {
+    "dataset": "KAIST",
+    "group": "full",
+    "images": 5881,
+    "model": "SSD300-VGG16",
+    "family": "ssd",
+    "modalities": "RGB",
+    "native_input": "300x300",
+    "metrics": {
+      "precision": 0.7182410423452769,
+      "recall": 0.29763779527559053,
+      "f1": 0.4208684587243518,
+      "map50": 0.3718658369531941
+    }
+  },
+  {
+    "dataset": "KAIST",
+    "group": "original",
+    "images": 2252,
+    "model": "SSD300-VGG16",
+    "family": "ssd",
+    "modalities": "RGB",
+    "native_input": "300x300",
+    "metrics": {
+      "precision": 0.7599431818181818,
+      "recall": 0.31563421828908556,
+      "f1": 0.4460191746561067,
+      "map50": 0.4100546850703677
+    }
+  },
+  {
+    "dataset": "KAIST",
+    "group": "twilight",
+    "images": 1412,
+    "model": "SSD300-VGG16",
+    "family": "ssd",
+    "modalities": "RGB",
+    "native_input": "300x300",
+    "metrics": {
+      "precision": 0.7276119402985075,
+      "recall": 0.346512661039538,
+      "f1": 0.46945531146554326,
+      "map50": 0.442273473698159
+    }
+  },
+  {
+    "dataset": "KAIST",
+    "group": "rain_night",
+    "images": 2217,
+    "model": "SSD300-VGG16",
+    "family": "ssd",
+    "modalities": "RGB",
+    "native_input": "300x300",
+    "metrics": {
+      "precision": 0.6611295681063123,
+      "recall": 0.24499846106494305,
+      "f1": 0.3575117898046261,
+      "map50": 0.29621262068609794
+    }
+  },
+  {
+    "dataset": "LLVIP",
+    "group": "full",
+    "images": 8681,
+    "model": "SSD300-VGG16",
+    "family": "ssd",
+    "modalities": "RGB",
+    "native_input": "300x300",
+    "metrics": {
+      "precision": 0.7884287869203445,
+      "recall": 0.826135726303982,
+      "f1": 0.806841948013146,
+      "map50": 0.838825915307647
+    }
+  },
+  {
+    "dataset": "LLVIP",
+    "group": "original",
+    "images": 3463,
+    "model": "SSD300-VGG16",
+    "family": "ssd",
+    "modalities": "RGB",
+    "native_input": "300x300",
+    "metrics": {
+      "precision": 0.7811701880659392,
+      "recall": 0.8484428193166057,
+      "f1": 0.8134179510426112,
+      "map50": 0.8522564576388911
+    }
+  },
+  {
+    "dataset": "LLVIP",
+    "group": "twilight",
+    "images": 2145,
+    "model": "SSD300-VGG16",
+    "family": "ssd",
+    "modalities": "RGB",
+    "native_input": "300x300",
+    "metrics": {
+      "precision": 0.8401030315038637,
+      "recall": 0.8478304339132173,
+      "f1": 0.8439490445859873,
+      "map50": 0.8691148412090125
+    }
+  },
+  {
+    "dataset": "LLVIP",
+    "group": "rain_night",
+    "images": 3073,
+    "model": "SSD300-VGG16",
+    "family": "ssd",
+    "modalities": "RGB",
+    "native_input": "300x300",
+    "metrics": {
+      "precision": 0.7596516690856313,
+      "recall": 0.7834156563388714,
+      "f1": 0.7713506742318179,
+      "map50": 0.7986366680773973
+    }
+  },
+  {
+    "dataset": "SWVID",
+    "group": "full",
+    "images": 9754,
+    "model": "SSD300-VGG16",
+    "family": "ssd",
+    "modalities": "RGB",
+    "native_input": "300x300",
+    "metrics": {
+      "precision": 0.7747784875334844,
+      "recall": 0.6960385042576823,
+      "f1": 0.7333008288639687,
+      "map50": 0.7010559983060503
+    }
+  },
+  {
+    "dataset": "SWVID",
+    "group": "original",
+    "images": 3600,
+    "model": "SSD300-VGG16",
+    "family": "ssd",
+    "modalities": "RGB",
+    "native_input": "300x300",
+    "metrics": {
+      "precision": 0.7811158798283262,
+      "recall": 0.7351788047998099,
+      "f1": 0.7574514964196094,
+      "map50": 0.7411166364191897
+    }
+  },
+  {
+    "dataset": "SWVID",
+    "group": "twilight",
+    "images": 3031,
+    "model": "SSD300-VGG16",
+    "family": "ssd",
+    "modalities": "RGB",
+    "native_input": "300x300",
+    "metrics": {
+      "precision": 0.7834810232402608,
+      "recall": 0.6778533198322002,
+      "f1": 0.7268496975337366,
+      "map50": 0.6844179100821554
+    }
+  },
+  {
+    "dataset": "SWVID",
+    "group": "rain_night",
+    "images": 3123,
+    "model": "SSD300-VGG16",
+    "family": "ssd",
+    "modalities": "RGB",
+    "native_input": "300x300",
+    "metrics": {
+      "precision": 0.7562170992920675,
+      "recall": 0.6635871296591271,
+      "f1": 0.7068804615254094,
+      "map50": 0.6727532605993014
+    }
+  },
+  {
+    "dataset": "KAIST",
+    "group": "full",
+    "images": 5881,
+    "model": "Fast R-CNN (VGG16)",
+    "family": "fast_rcnn",
+    "modalities": "RGB",
+    "native_input": "short600_max1000",
+    "metrics": {
+      "precision": 0.1284785557270474,
+      "recall": 0.3089988751406074,
+      "f1": 0.18149383898781013,
+      "map50": 0.12654306591735018
+    }
+  },
+  {
+    "dataset": "KAIST",
+    "group": "original",
+    "images": 2252,
+    "model": "Fast R-CNN (VGG16)",
+    "family": "fast_rcnn",
+    "modalities": "RGB",
+    "native_input": "short600_max1000",
+    "metrics": {
+      "precision": 0.15058759223831647,
+      "recall": 0.3250737463126844,
+      "f1": 0.20582741875233468,
+      "map50": 0.14372407740778695
+    }
+  },
+  {
+    "dataset": "KAIST",
+    "group": "twilight",
+    "images": 1412,
+    "model": "Fast R-CNN (VGG16)",
+    "family": "fast_rcnn",
+    "modalities": "RGB",
+    "native_input": "short600_max1000",
+    "metrics": {
+      "precision": 0.13996539792387544,
+      "recall": 0.3593958240781875,
+      "f1": 0.20146930643755448,
+      "map50": 0.1518891712469812
+    }
+  },
+  {
+    "dataset": "KAIST",
+    "group": "rain_night",
+    "images": 2217,
+    "model": "Fast R-CNN (VGG16)",
+    "family": "fast_rcnn",
+    "modalities": "RGB",
+    "native_input": "short600_max1000",
+    "metrics": {
+      "precision": 0.10092961487383798,
+      "recall": 0.2573099415204678,
+      "f1": 0.14498785986819282,
+      "map50": 0.09445840715288531
+    }
+  },
+  {
+    "dataset": "LLVIP",
+    "group": "full",
+    "images": 8681,
+    "model": "Fast R-CNN (VGG16)",
+    "family": "fast_rcnn",
+    "modalities": "RGB",
+    "native_input": "short600_max1000",
+    "metrics": {
+      "precision": 0.04811571630947154,
+      "recall": 0.8883903533370724,
+      "f1": 0.0912872635825431,
+      "map50": 0.5362116385430613
+    }
+  },
+  {
+    "dataset": "LLVIP",
+    "group": "original",
+    "images": 3463,
+    "model": "Fast R-CNN (VGG16)",
+    "family": "fast_rcnn",
+    "modalities": "RGB",
+    "native_input": "short600_max1000",
+    "metrics": {
+      "precision": 0.043853237830726505,
+      "recall": 0.9078300340436263,
+      "f1": 0.08366499143014845,
+      "map50": 0.5727282308837922
+    }
+  },
+  {
+    "dataset": "LLVIP",
+    "group": "twilight",
+    "images": 2145,
+    "model": "Fast R-CNN (VGG16)",
+    "family": "fast_rcnn",
+    "modalities": "RGB",
+    "native_input": "short600_max1000",
+    "metrics": {
+      "precision": 0.06726779803184399,
+      "recall": 0.8980203959208158,
+      "f1": 0.12516024747784404,
+      "map50": 0.6183712818773035
+    }
+  },
+  {
+    "dataset": "LLVIP",
+    "group": "rain_night",
+    "images": 3073,
+    "model": "Fast R-CNN (VGG16)",
+    "family": "fast_rcnn",
+    "modalities": "RGB",
+    "native_input": "short600_max1000",
+    "metrics": {
+      "precision": 0.04370330843116329,
+      "recall": 0.858105074090705,
+      "f1": 0.08317072993812609,
+      "map50": 0.44270461566627384
+    }
+  },
+  {
+    "dataset": "SWVID",
+    "group": "full",
+    "images": 9754,
+    "model": "Fast R-CNN (VGG16)",
+    "family": "fast_rcnn",
+    "modalities": "RGB",
+    "native_input": "short600_max1000",
+    "metrics": {
+      "precision": 0.08243059854292653,
+      "recall": 0.6409200296186598,
+      "f1": 0.14607417095603747,
+      "map50": 0.40901684416633677
+    }
+  },
+  {
+    "dataset": "SWVID",
+    "group": "original",
+    "images": 3600,
+    "model": "Fast R-CNN (VGG16)",
+    "family": "fast_rcnn",
+    "modalities": "RGB",
+    "native_input": "short600_max1000",
+    "metrics": {
+      "precision": 0.07769083684788652,
+      "recall": 0.6806463110371866,
+      "f1": 0.13946298595389373,
+      "map50": 0.4513229312771073
+    }
+  },
+  {
+    "dataset": "SWVID",
+    "group": "twilight",
+    "images": 3031,
+    "model": "Fast R-CNN (VGG16)",
+    "family": "fast_rcnn",
+    "modalities": "RGB",
+    "native_input": "short600_max1000",
+    "metrics": {
+      "precision": 0.10917587085811385,
+      "recall": 0.5948213510776797,
+      "f1": 0.1844897592929089,
+      "map50": 0.406510494988921
+    }
+  },
+  {
+    "dataset": "SWVID",
+    "group": "rain_night",
+    "images": 3123,
+    "model": "Fast R-CNN (VGG16)",
+    "family": "fast_rcnn",
+    "modalities": "RGB",
+    "native_input": "short600_max1000",
+    "metrics": {
+      "precision": 0.07080896772255887,
+      "recall": 0.6384198789423383,
+      "f1": 0.12747888869451823,
+      "map50": 0.36532995826356607
+    }
+  },
+  {
+    "dataset": "KAIST",
+    "group": "full",
+    "images": 5881,
+    "model": "R-CNN (AlexNet+SVM)",
+    "family": "rcnn",
+    "modalities": "RGB",
+    "native_input": "original_regions_crop224",
+    "metrics": {
+      "precision": 0.1657091019050499,
+      "recall": 0.18492688413948258,
+      "f1": 0.17479134548934133,
+      "map50": 0.08706660240233646
+    }
+  },
+  {
+    "dataset": "KAIST",
+    "group": "original",
+    "images": 2252,
+    "model": "R-CNN (AlexNet+SVM)",
+    "family": "rcnn",
+    "modalities": "RGB",
+    "native_input": "original_regions_crop224",
+    "metrics": {
+      "precision": 0.1922222222222222,
+      "recall": 0.20412979351032448,
+      "f1": 0.19799713876967096,
+      "map50": 0.10265650530553634
+    }
+  },
+  {
+    "dataset": "KAIST",
+    "group": "twilight",
+    "images": 1412,
+    "model": "R-CNN (AlexNet+SVM)",
+    "family": "rcnn",
+    "modalities": "RGB",
+    "native_input": "original_regions_crop224",
+    "metrics": {
+      "precision": 0.1921582479689156,
+      "recall": 0.2416703687250111,
+      "f1": 0.21408894136166864,
+      "map50": 0.12683522435045042
+    }
+  },
+  {
+    "dataset": "KAIST",
+    "group": "rain_night",
+    "images": 2217,
+    "model": "R-CNN (AlexNet+SVM)",
+    "family": "rcnn",
+    "modalities": "RGB",
+    "native_input": "original_regions_crop224",
+    "metrics": {
+      "precision": 0.1169054441260745,
+      "recall": 0.12557710064635272,
+      "f1": 0.12108621457189495,
+      "map50": 0.04649705180823393
+    }
+  },
+  {
+    "dataset": "LLVIP",
+    "group": "full",
+    "images": 8681,
+    "model": "R-CNN (AlexNet+SVM)",
+    "family": "rcnn",
+    "modalities": "RGB",
+    "native_input": "original_regions_crop224",
+    "metrics": {
+      "precision": 0.19988493593730564,
+      "recall": 0.655432621220619,
+      "f1": 0.30634495084897234,
+      "map50": 0.410387972180581
+    }
+  },
+  {
+    "dataset": "LLVIP",
+    "group": "original",
+    "images": 3463,
+    "model": "R-CNN (AlexNet+SVM)",
+    "family": "rcnn",
+    "modalities": "RGB",
+    "native_input": "original_regions_crop224",
+    "metrics": {
+      "precision": 0.18952897322941376,
+      "recall": 0.705207413945278,
+      "f1": 0.29876338773002853,
+      "map50": 0.4474878443101288
+    }
+  },
+  {
+    "dataset": "LLVIP",
+    "group": "twilight",
+    "images": 2145,
+    "model": "R-CNN (AlexNet+SVM)",
+    "family": "rcnn",
+    "modalities": "RGB",
+    "native_input": "original_regions_crop224",
+    "metrics": {
+      "precision": 0.25152984185011523,
+      "recall": 0.6328734253149371,
+      "f1": 0.3599863512283894,
+      "map50": 0.42893475269566445
+    }
+  },
+  {
+    "dataset": "LLVIP",
+    "group": "rain_night",
+    "images": 3073,
+    "model": "R-CNN (AlexNet+SVM)",
+    "family": "rcnn",
+    "modalities": "RGB",
+    "native_input": "original_regions_crop224",
+    "metrics": {
+      "precision": 0.18439173680183626,
+      "recall": 0.6132315521628499,
+      "f1": 0.28352941176470586,
+      "map50": 0.3630034998234706
+    }
+  },
+  {
+    "dataset": "SWVID",
+    "group": "full",
+    "images": 9754,
+    "model": "R-CNN (AlexNet+SVM)",
+    "family": "rcnn",
+    "modalities": "RGB",
+    "native_input": "original_regions_crop224",
+    "metrics": {
+      "precision": 0.03896093313940461,
+      "recall": 0.44256756756756754,
+      "f1": 0.0716171332926432,
+      "map50": 0.2438231272296398
+    }
+  },
+  {
+    "dataset": "SWVID",
+    "group": "original",
+    "images": 3600,
+    "model": "R-CNN (AlexNet+SVM)",
+    "family": "rcnn",
+    "modalities": "RGB",
+    "native_input": "original_regions_crop224",
+    "metrics": {
+      "precision": 0.036096487265619225,
+      "recall": 0.5221575383153142,
+      "f1": 0.06752500499331664,
+      "map50": 0.2923110126491397
+    }
+  },
+  {
+    "dataset": "SWVID",
+    "group": "twilight",
+    "images": 3031,
+    "model": "R-CNN (AlexNet+SVM)",
+    "family": "rcnn",
+    "modalities": "RGB",
+    "native_input": "original_regions_crop224",
+    "metrics": {
+      "precision": 0.06291233565902511,
+      "recall": 0.38348039924779403,
+      "f1": 0.1080915781533506,
+      "map50": 0.21830901468684308
+    }
+  },
+  {
+    "dataset": "SWVID",
+    "group": "rain_night",
+    "images": 3123,
+    "model": "R-CNN (AlexNet+SVM)",
+    "family": "rcnn",
+    "modalities": "RGB",
+    "native_input": "original_regions_crop224",
+    "metrics": {
+      "precision": 0.030862229633625976,
+      "recall": 0.40092386110226186,
+      "f1": 0.05731265796844048,
+      "map50": 0.2144700050781802
+    }
+  },
+  {
+    "dataset": "KAIST",
+    "group": "full",
+    "images": 5881,
+    "model": "TRIM-Net innov3",
+    "family": "innov3",
+    "modalities": "RGB+IR",
+    "native_input": "640_square",
+    "metrics": {
+      "precision": 0.7041499330655957,
+      "recall": 0.650843644544432,
+      "f1": 0.6764482375635705,
+      "map50": 0.696086951388819
+    }
+  },
+  {
+    "dataset": "KAIST",
+    "group": "original",
+    "images": 2252,
+    "model": "TRIM-Net innov3",
+    "family": "innov3",
+    "modalities": "RGB+IR",
+    "native_input": "640_square",
+    "metrics": {
+      "precision": 0.7185303514376997,
+      "recall": 0.6634218289085546,
+      "f1": 0.689877300613497,
+      "map50": 0.7178673616439234
+    }
+  },
+  {
+    "dataset": "KAIST",
+    "group": "twilight",
+    "images": 1412,
+    "model": "TRIM-Net innov3",
+    "family": "innov3",
+    "modalities": "RGB+IR",
+    "native_input": "640_square",
+    "metrics": {
+      "precision": 0.6837755545889517,
+      "recall": 0.6983562860950688,
+      "f1": 0.690989010989011,
+      "map50": 0.7235128747671409
+    }
+  },
+  {
+    "dataset": "KAIST",
+    "group": "rain_night",
+    "images": 2217,
+    "model": "TRIM-Net innov3",
+    "family": "innov3",
+    "modalities": "RGB+IR",
+    "native_input": "640_square",
+    "metrics": {
+      "precision": 0.7048063127690101,
+      "recall": 0.6048014773776547,
+      "f1": 0.6509855888686433,
+      "map50": 0.6569351992893766
+    }
+  },
+  {
+    "dataset": "LLVIP",
+    "group": "full",
+    "images": 8681,
+    "model": "TRIM-Net innov3",
+    "family": "innov3",
+    "modalities": "RGB+IR",
+    "native_input": "640_square",
+    "metrics": {
+      "precision": 0.8832530604053783,
+      "recall": 0.8976189262224035,
+      "f1": 0.8903780503224176,
+      "map50": 0.9355843171387064
+    }
+  },
+  {
+    "dataset": "LLVIP",
+    "group": "original",
+    "images": 3463,
+    "model": "TRIM-Net innov3",
+    "family": "innov3",
+    "modalities": "RGB+IR",
+    "native_input": "640_square",
+    "metrics": {
+      "precision": 0.8788285539963392,
+      "recall": 0.9080822090530828,
+      "f1": 0.8932159245938235,
+      "map50": 0.9416370927050074
+    }
+  },
+  {
+    "dataset": "LLVIP",
+    "group": "twilight",
+    "images": 2145,
+    "model": "TRIM-Net innov3",
+    "family": "innov3",
+    "modalities": "RGB+IR",
+    "native_input": "640_square",
+    "metrics": {
+      "precision": 0.8877735394499097,
+      "recall": 0.8842231553689263,
+      "f1": 0.8859947906231216,
+      "map50": 0.9264854259254582
+    }
+  },
+  {
+    "dataset": "LLVIP",
+    "group": "rain_night",
+    "images": 3073,
+    "model": "TRIM-Net innov3",
+    "family": "innov3",
+    "modalities": "RGB+IR",
+    "native_input": "640_square",
+    "metrics": {
+      "precision": 0.885287152161042,
+      "recall": 0.8952252656787906,
+      "f1": 0.8902284736176229,
+      "map50": 0.9356927152755532
+    }
+  },
+  {
+    "dataset": "SWVID",
+    "group": "full",
+    "images": 9754,
+    "model": "TRIM-Net innov3",
+    "family": "innov3",
+    "modalities": "RGB+IR",
+    "native_input": "640_square",
+    "metrics": {
+      "precision": 0.8351268073003081,
+      "recall": 0.8152998889300259,
+      "f1": 0.8250942556729035,
+      "map50": 0.8714055688285196
+    }
+  },
+  {
+    "dataset": "SWVID",
+    "group": "original",
+    "images": 3600,
+    "model": "TRIM-Net innov3",
+    "family": "innov3",
+    "modalities": "RGB+IR",
+    "native_input": "640_square",
+    "metrics": {
+      "precision": 0.8061011741468233,
+      "recall": 0.8727575145538791,
+      "f1": 0.8381061038220194,
+      "map50": 0.9075312679940656
+    }
+  },
+  {
+    "dataset": "SWVID",
+    "group": "twilight",
+    "images": 3031,
+    "model": "TRIM-Net innov3",
+    "family": "innov3",
+    "modalities": "RGB+IR",
+    "native_input": "640_square",
+    "metrics": {
+      "precision": 0.8548649528148389,
+      "recall": 0.7600173585997396,
+      "f1": 0.804655792939735,
+      "map50": 0.8416802838086848
+    }
+  },
+  {
+    "dataset": "SWVID",
+    "group": "rain_night",
+    "images": 3123,
+    "model": "TRIM-Net innov3",
+    "family": "innov3",
+    "modalities": "RGB+IR",
+    "native_input": "640_square",
+    "metrics": {
+      "precision": 0.859664153529815,
+      "recall": 0.7991398534565148,
+      "f1": 0.828297837213142,
+      "map50": 0.8648691453578748
+    }
+  }
+]

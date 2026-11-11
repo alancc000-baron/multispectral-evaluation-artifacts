@@ -1,0 +1,11 @@
+{
+  "KAIST/test": 5881,
+  "KAIST/train": 17694,
+  "KAIST/val": 1935,
+  "LLVIP/test": 8681,
+  "LLVIP/train": 28744,
+  "LLVIP/val": 3897,
+  "SWVID/test": 9754,
+  "SWVID/train": 34833,
+  "SWVID/val": 3979
+}
