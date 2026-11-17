@@ -1,0 +1,62 @@
+[
+  {
+    "file": "kaist-ticre-net.jsonl.gz",
+    "dataset": "kaist",
+    "model": "ticre-net",
+    "images": 5881,
+    "detections": 93719,
+    "bytes": 3482669,
+    "sha256": "692ecd6a6db3edf0de865f73168130cbf4cae028dc961ac8d827489010d1b9d1",
+    "archive_sha256": "30402fb3edf9c1fa21a904acbfb62a959141f09397245abca07d890e27d39f7f"
+  },
+  {
+    "file": "kaist-umpdp.jsonl.gz",
+    "dataset": "kaist",
+    "model": "umpdp",
+    "images": 5881,
+    "detections": 80745,
+    "bytes": 2997287,
+    "sha256": "91a32803155c619c5b90ba6110a08850a9b6b362ecec28fb0bf8abe77c9e7042",
+    "archive_sha256": "48b3c66aff38e7ef7b77e127c89593b3501dfd3cbb336e0d1d629fb90f916039"
+  },
+  {
+    "file": "llvip-ticre-net.jsonl.gz",
+    "dataset": "llvip",
+    "model": "ticre-net",
+    "images": 8681,
+    "detections": 243788,
+    "bytes": 8706658,
+    "sha256": "d5a3786a128283145bfbd9bad0cbbdbc7dbd596c15885ca56695a91ceb34dd2a",
+    "archive_sha256": "ffbbd9666f20b6249905f91c189b4a87610e08ee052545ae0e8be085903add55"
+  },
+  {
+    "file": "llvip-umpdp.jsonl.gz",
+    "dataset": "llvip",
+    "model": "umpdp",
+    "images": 8681,
+    "detections": 336255,
+    "bytes": 12051176,
+    "sha256": "eb523223c1f7dc447d21fc6d0ff412675254de2ecee475435c32cd865db8242c",
+    "archive_sha256": "20dd40ef13eb4ac912c74f1751f39d74c932e1c01eac84127694bf1f2b6e372c"
+  },
+  {
+    "file": "swvid-ticre-net.jsonl.gz",
+    "dataset": "swvid",
+    "model": "ticre-net",
+    "images": 9754,
+    "detections": 326261,
+    "bytes": 11870886,
+    "sha256": "42405e840d4a5188ddd643e364fb83f8dec65d54b33fa17e63a643f94dd7cda5",
+    "archive_sha256": "74eb287bcaf91e2f6a0ac0dae30ca72577d14399a45351e2abc4415a086e2d52"
+  },
+  {
+    "file": "swvid-umpdp.jsonl.gz",
+    "dataset": "swvid",
+    "model": "umpdp",
+    "images": 9754,
+    "detections": 295371,
+    "bytes": 10646255,
+    "sha256": "7118768053ca763d7edf3567f7dc480a2f8cefe62b0a4ae56db2425a092fd9c7",
+    "archive_sha256": "7ece45fe5f3569f9fe47692379f7c62a3d7f0a5152f016114bbfd014e5ce9b24"
+  }
+]
